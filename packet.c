@@ -44,5 +44,5 @@ void packet_handler(u_char *user_data, const struct pcap_pkthdr *pkthdr, const u
     
     printf("Message: %.16s\n", message);
     
-    printf("\n");
+    printf("\n"); 
 }
